@@ -10,18 +10,18 @@
         <?php
 
         // Variável
-            echo"Olá \u{1F30E}!";
-            $nome = "Ferrari";
-            $cor ="Amarela";
+            echo"Hello \u{1F30E}!";
+            $name = "Ferrari";
+            $color ="Yellow";
             $nº = "83";
-            $campeonato = "Le Mans 24";
-            $ano = "2025";
+            $championship = "Le Mans 24";
+            $year = "2025";
 
-            echo"<p>A equipe campeã foi a $nome, da cor $cor, nº $nº, de $campeonato em 2025.</p>";
+            echo"<p>The champion team was $name, $color, nº $nº, of $championship in 2025.</p>";
 
         // Data e Hora
             date_default_timezone_set(timezoneId: "America/Sao_Paulo");
-            echo "A data de hoje é: ". date (format: "d/M/Y") . " Horário: " . date (format: "G:i:s");
+            echo "Today is: ". date (format: "d/M/Y") . " Hour: " . date (format: "G:i:s");
             
         ?>
     </h1>
